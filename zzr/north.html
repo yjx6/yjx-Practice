@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .one li a{
+        text-decoration: none;
+      }
+      .one li a:hover{
+        background-color: dimgray;
+      }
+     body{
+      margin: auto;
+     }
+     .one{
+      list-style: none;
+      float: left;
+     }
+   
+     .one li{
+      display: block;
+     }
+     .two{
+      display: none;
+     }
+     .one:hover .two{
+      display: block;
+     }
+     .two{
+      list-style: none;
+     }
+    </style>
+</head>
+<body>
+  <div class="box">
+    <ul class="one">
+      <li class="three"><a href="#">放上去会出现下拉菜单哦</a>
+      <ul class="two">
+        <li><a href="">列表1</a></li>
+        <li><a href="">列表2</a></li>
+        <li><a href="">列表3</a></li>
+      </ul>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
